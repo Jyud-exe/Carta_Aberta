@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .fundo-1 {
