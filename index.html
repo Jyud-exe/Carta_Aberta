@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Carol❤️</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body >
+    <div class="fundo-1" id="opening">
+        ✦　✧　❤️　✧　✦
+        <h2>Carol</h2><br>
+        <p>Uma carta aberta pra ti!</p>
+        <button id="botao">Abrir minha carta 💌</button>
+    </div>
+
+    <script>
+        const opening = document.getElementById('opening');
+        document.getElementById('botao').addEventListener('click', () => {
+            opening.classList.add('offhide');
+
+        setTimeout(() => {
+            opening.classList.remove('offhide');
+            window.location.href = 'carta.html';
+        }, 500);
+        });
+
+    </script>
+</body>
+</html>
+

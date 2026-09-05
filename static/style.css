@@ -1,0 +1,117 @@
+body {
+    font-family: georgia, 'Times New Roman', Times, serif;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.fundo-1 {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(
+        circle at center,
+        #ff49d1 0%,
+        #db22ad 40%,
+        #7c005d 75%,
+        #300025 100%
+    );
+}
+
+carta {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 5px #7c005d;
+    margin: 10px;
+    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a {
+    color: #7c005d;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+h2  {
+    margin-bottom: -20px;
+}
+
+button {
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    padding: 8px 18px;
+    transition: 0.3s;
+}
+    button:hover {
+        padding: 10px 25px;
+        transition: 0.3s;
+    }
+
+/*Segunda parte do site*/
+
+card {
+    color: white;
+    background-color: #7c005d;
+    border-radius: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 10px;
+}
+
+photos {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 20px;
+    margin: 20px;
+    max-width: 250px;
+    transition: 0.5s;
+}
+    img:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+fim {
+    color: #7c005d;
+    background: linear-gradient(white, #ffb7f1);
+    border-radius: 20px;
+    padding:10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.offhide {
+    opacity: 0;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+#opacity {
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+#opacity.onhide {
+    opacity: 1;
+}
