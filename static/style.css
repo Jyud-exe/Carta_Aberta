@@ -1,12 +1,12 @@
 html, body {
     font-family: georgia, 'Times New Roman', Times, serif;
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 100%;
     max-width: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
 .fundo-1 {
@@ -32,7 +32,7 @@ carta {
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 0px 20px 5px #7c005d;
-    margin: 10px;
+    margin: 15px;
     padding: 30px;
     padding-left: 30px;
     padding-right: 30px;
