@@ -1,4 +1,4 @@
-# 💙 Carta para Carol
+# 💙 Carta Aberta
 
 Uma pequena carta transformada em uma experiência virtual.
 
@@ -51,7 +51,7 @@ Você pode abrir o projeto diretamente no navegador ou utilizar uma extensão co
 2. Entre na pasta:
 
    ```bash
-   cd carta-para-carol
+   cd Carta_Aberta
    ```
 
 3. Abra o `index.html` no navegador.
