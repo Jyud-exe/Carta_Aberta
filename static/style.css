@@ -1,6 +1,7 @@
 html, body {
     font-family: georgia, 'Times New Roman', Times, serif;
     align-items: center;
+    display: flex;
     width: 100%;
     max-width: 100%;
     margin: 0;
